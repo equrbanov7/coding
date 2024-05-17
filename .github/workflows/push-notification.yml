@@ -6,7 +6,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Send email notification
+      - name: Send email notificationgit
         uses: dawidd6/action-send-mail@v3
         with:
            server_address: smtp.gmail.com
